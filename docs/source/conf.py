@@ -50,6 +50,8 @@ master_doc = 'index'
 
 napoleon_google_docstring = True
 
+autosummary_generate = True
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

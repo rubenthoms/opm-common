@@ -1,9 +1,9 @@
 API documentation
 =================
 
-.. currentmodule:: sphinx
+.. currentmodule:: opm
 
 .. autosummary::
+   :recursive:
 
-   environment.BuildEnvironment
-   util.relative_uri
+   io
