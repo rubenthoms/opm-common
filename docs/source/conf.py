@@ -13,7 +13,7 @@ import os
 import sys
 import opm
 sys.path.insert(0, os.path.abspath(".")
-sys.path.insert(0, os.path.abspath(dirname(opm.__file__)))
+sys.path.insert(0, os.path.abspath(os.path.dirname(opm.__file__)))
 
 
 # -- Project information -----------------------------------------------------
