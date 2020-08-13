@@ -5,5 +5,5 @@ API documentation
 
 .. autosummary::
 
-   io.ecl.eclfile_get_list_of_arrays
-   io.ecl.getitem_eclfile
+   _common.io.ecl.eclfile_get_list_of_arrays
+   _common.io.ecl.getitem_eclfile
