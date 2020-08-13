@@ -4,6 +4,5 @@ API documentation
 .. currentmodule:: opm
 
 .. autosummary::
-   :recursive:
 
-   io
+   io.ecl
