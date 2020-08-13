@@ -1,4 +1,9 @@
 API documentation
 =================
 
-.. automodule:: sphinx.__main__
+.. currentmodule:: sphinx
+
+.. autosummary::
+
+   environment.BuildEnvironment
+   util.relative_uri
