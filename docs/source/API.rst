@@ -5,4 +5,5 @@ API documentation
 
 .. autosummary::
 
-   io.ecl.EclFile
+   io.ecl.eclfile_get_list_of_arrays
+   io.ecl.getitem_eclfile
