@@ -43,6 +43,7 @@ extensions = [
     'sphinx.ext.napoleon', 
     'm2r', 
     'readthedocs_ext.readthedocs',
+    'sphinx.ext.autosummary',
 ]
 
 master_doc = 'index'
