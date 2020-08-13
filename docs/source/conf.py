@@ -42,14 +42,10 @@ extensions = [
     'sphinx.ext.coverage', 
     'sphinx.ext.napoleon', 
     'm2r', 
-    'sphinx.ext.autosummary', 
-    'sphinx_autopackagesummary',
     'readthedocs_ext.readthedocs',
 ]
 
 master_doc = 'index'
-
-autosummary_generate = True
 
 napoleon_google_docstring = True
 
