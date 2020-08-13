@@ -1,1 +1,4 @@
+API documentation
+=================
+
 .. autoclass:: opm
