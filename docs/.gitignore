@@ -1,4 +1,4 @@
-_templates/
-_static/
-_build/
-make.bat
+__pycache__
+build
+_build
+.vscode

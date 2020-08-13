@@ -8,14 +8,16 @@ opm-common
 
 opm-common is a framework for using components for OPM, in particular CMake modules for the build system.
 
+Contents
+========
+
 .. toctree::
    :maxdepth: 2
    
-   getting-started/overview
-   getting-started/cpp/overview
-   getting-started/cpp/download-and-install
-   getting-started/python/overview
-   getting-started/python/install
+   Installation
+   PythonExamples
+   API
+   
 
 Indices and tables
 ==================
