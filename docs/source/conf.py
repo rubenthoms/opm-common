@@ -38,10 +38,18 @@ release = '2020.04'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon', 'm2r'
+    'sphinx.ext.autodoc', 
+    'sphinx.ext.coverage', 
+    'sphinx.ext.napoleon', 
+    'm2r', 
+    'sphinx.ext.autosummary', 
+    'sphinx_autopackagesummary',
+    'readthedocs_ext.readthedocs',
 ]
 
 master_doc = 'index'
+
+autosummary_generate = True
 
 napoleon_google_docstring = True
 

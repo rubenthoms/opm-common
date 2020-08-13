@@ -1,4 +1,5 @@
 API documentation
 =================
 
-.. autoclass:: opm
+.. autopackagesummary:: opm
+   :toctree: _autosummary
