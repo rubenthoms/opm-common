@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon', 'm2r'
 ]
 
-master_doc  = 'index'
+master_doc = 'index'
 
 napoleon_google_docstring = True
 
