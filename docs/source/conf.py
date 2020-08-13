@@ -13,7 +13,13 @@ import os
 import sys
 import opm
 sys.path.insert(0, os.path.abspath("."))
-sys.path.insert(1, os.path.abspath(os.path.join(os.path.dirname(opm.__file__), "..")))
+#sys.path.insert(1, os.path.abspath(os.path.join(os.path.dirname(opm.__file__), "..")))
+if 'VIRTUAL_ENV' in os.environ:
+    site_packages_glob = os.sep.join([
+        os.environ['VIRTUAL_ENV'],
+        'lib', 'python3.7', 'site-packages', 'opm-*py3.7.egg'])
+    site_packages = glob.glob(site_packages_glob)[-1]
+    sys.path.insert(0, site_packages)
 
 
 # -- Project information -----------------------------------------------------
