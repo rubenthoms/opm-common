@@ -12,8 +12,8 @@
 import os
 import sys
 import opm
-sys.path.insert(0, os.path.abspath("..")
-sys.path.insert(1, os.path.abspath(dirname(opm.__file__)))
+sys.path.insert(0, os.path.abspath(".")
+sys.path.insert(0, os.path.abspath(dirname(opm.__file__)))
 
 
 # -- Project information -----------------------------------------------------
@@ -56,7 +56,7 @@ exclude_patterns = ['build/*']
 html_theme = "sphinx_rtd_theme"
 
 html_theme_options = {
-    'style_nav_header_background': '#505050',
+    'style_nav_header_background': '#000000',
 }
 smartquotes=False
 
