@@ -1,4 +1,4 @@
 API documentation
 =================
 
-.. automodule:: opm._common
+.. automodule:: sphinx.__main__
