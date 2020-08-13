@@ -5,4 +5,4 @@ API documentation
 
 .. autosummary::
 
-   io.ecl
+   io.ecl.EclFile
